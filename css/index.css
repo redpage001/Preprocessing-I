@@ -126,10 +126,10 @@ table {
   border: solid black 2px;
 }
 #WholePage {
+  width: 100%;
   margin: 0 2%;
   display: flex;
   font-size: 62.5%;
-  border: solid black 2px;
 }
 @media (max-width: 500px) {
   #WholePage {
@@ -150,7 +150,7 @@ h2 {
   color: #440000;
 }
 header {
-  width: 40%;
+  width: 45%;
   padding: 5vh 0;
   display: flex;
   flex-direction: column;
@@ -160,7 +160,6 @@ header {
 @media (max-width: 500px) {
   header {
     width: 100%;
-    background-color: blue;
   }
 }
 header #Nav nav a {
@@ -223,6 +222,6 @@ header .Bio {
 .GreaterContent .InfoContainer .SubHead {
   font-size: 2rem;
 }
-.GreaterContent .InfoContainer ul li {
+.GreaterContent .InfoContainer li {
   font-size: 1.75rem;
 }
