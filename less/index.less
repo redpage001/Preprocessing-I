@@ -69,10 +69,6 @@ table {
 	border: solid red 10px;
 }
 
-html, body {
-	
-}
-
 #WholePage {
 	width: 100%;
 	margin: 0 2%;
@@ -86,20 +82,20 @@ html, body {
 }
 
 p, li {
-	font-size: 1.5rem;
+	font-size: 20px;
 	line-height: 1.25;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
 h2 {
-	font-size: 2.5rem;
-	margin-bottom: 1.25rem;
+	font-size: 35px;
+	margin-bottom: 1.25vh;
 	text-decoration: underline;
 	color: @sub-color;
 }
 
-header {
-	width: 45%;
+#WholePage header {
+	width: 60%;
 	padding: 5vh 0;
 	display: flex;
 	flex-direction: column;
@@ -108,6 +104,17 @@ header {
 
 	@media (max-width: 500px){
 		width: 100%;
+	}
+
+	#Nav {
+		width: 100%;
+		padding: 0 15%;
+	}
+
+	#Nav nav {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
 	}
 
 	#Nav nav a {
@@ -134,11 +141,11 @@ header {
 		padding: 5% 15%;
 
 		h1 {
-			font-size: 5rem;
+			font-size: 60px;
 		}
 
 		p {
-			font-size: 3rem;
+			font-size: 40px;
 			color: @sub-color;
 		}
 	}
@@ -165,9 +172,11 @@ header {
 		.HeaderContainer {
 			display: flex;
 			margin-bottom: 2vh;
+			align-items: flex-end;
 			
 			.Icon {
-				width: 15%;
+				width: 10%;
+				margin-right: 2%;
 			}
 
 			.ContentTitle {
@@ -177,16 +186,15 @@ header {
 	}
 	.InfoContainer {
 		h3 {
-			font-size: 2.25rem;
-			margin-bottom: 2vh;
+			font-size: 30px;
 		}
 
 		.SubHead {
-			font-size: 2rem;
+			font-size: 25px;
 		}
 
 		li {
-			font-size: 1.75rem;
+			font-size: 20px;
 		}
 	}
 }
